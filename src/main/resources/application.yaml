@@ -1,0 +1,9 @@
+api-gateway:
+  order-service:
+    url: ${ORDER_SERVICE_URL}
+  customer-service:
+    url: ${CUSTOMER_SERVICE_URL}
+
+server:
+  port: 8083
+
